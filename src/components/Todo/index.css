@@ -1,0 +1,25 @@
+.each-todo-card{
+    display: flex;
+    align-items: center;
+}
+.delete-btn{
+    margin-left: auto;
+}
+.todo-text{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.icon{
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    min-width: 20px;
+}
+@media screen and (max-width:690px) {
+    .icon{
+        font-size: 20px;
+    }
+    .todo-text{
+        font-size: 12px;
+    }
+}

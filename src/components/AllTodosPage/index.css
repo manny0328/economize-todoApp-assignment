@@ -1,0 +1,128 @@
+.main-page {
+  background-color: #2bc2f0;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 690px) {
+  .main-page {
+    padding: 10px;
+  }
+}
+.child-div {
+  background-color: #000e12;
+  min-height: 500px;
+  padding: 20px;
+  width: 100%;
+  color: lightgray;
+  border-radius: 5px;
+}
+.day-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.no-active-tasks {
+  font-size: 12px;
+  color: #2bc2f0;
+  margin: 0px;
+  font-weight: 600;
+}
+.task-category {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+  color: lightgrey;
+  cursor: pointer;
+}
+.input-ele {
+  padding: 10px;
+  border: none;
+  font-weight: 500;
+  min-width: 200px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.form-card{
+  display: flex;
+  align-items: center;
+}
+.add-task-btn {
+  background-color: #2bc2f0;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+
+.type-of-tasks {
+  display: flex;
+  flex-direction: row;
+}
+.top-data{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.todos-container{
+    margin-top: 30px;
+}
+.specific-category{
+    color: grey;
+}
+.empty-tasks{
+  text-align: center;
+}
+@media screen and (max-width:690px) {
+  .input-ele{
+   min-width: 100px;
+   width: 70%;
+  }
+  .add-task-btn{
+   padding: 12px 10px;
+   font-size: 10px;
+   word-break:keep-all;
+   width: 70px;
+  }
+  .top-data{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .day-card{
+    margin-bottom: 20px;
+  }
+  .task-category{
+    font-size: 12px;
+  }
+  .day-text{
+    font-size: 15px;
+  }
+  .no-active-tasks{
+    font-size: 10px;
+  }
+}
+.loading-card{
+  position: fixed;
+  color: #fff;
+  font-size: 10px;
+  width: 100%;
+  top: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: rgba(100, 100, 10, 0.3)
+}
+.loading{
+  text-align: center;
+  align-self: center;
+}
